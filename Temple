@@ -1,0 +1,37 @@
+public class Temple{  
+ 
+public static void main(String[] args){ 
+  
+  int zen = 0;
+  int money = 100;
+  
+  public Player (String name){
+    this.name = name;
+  
+  
+  
+   public void meditate(Player player){
+    player.zen += 2;}
+  
+  public void help_someone(Player player){
+    player.zen += 10;
+    player.money -= 10;}
+  
+  public void work_at_company(Player player){
+    player.zen -= 35;
+    player.money += 40;}
+  
+  public void purchase_temple(Player player){
+    player.zen += 15;
+    player.money -= 50;
+  }
+  
+  public void work_at_temple(Player player){
+    player.zen += 10;
+    player.money -= 10;
+  }
+}}
+  
+}
+
+//I do my best...
